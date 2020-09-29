@@ -1,11 +1,17 @@
-public static class Multiplication {
-  private int result = 0;
+package calc.operations;
 
-  public void multiply(int x) {
-    result *= x;
+public class Multiplication
+{
+  private int result;
+
+  public Multiplication() { result = 1; }
+
+  public Multiplication(int a) { this.result = a; }
+
+  public void multiply(int b)
+  {
+    result *= b;
   }
 
-  public int getResult() {
-    return result;
-  }
+  public int getResult() { return result; }
 }

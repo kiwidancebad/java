@@ -1,11 +1,17 @@
-public static class Subtraction {
+package calc.operations;
+
+public class Subtraction
+{
   private int result;
 
-  public void sub(int x) {
-    result -= x;
+  public Subtraction() { result = 0; }
+
+  public Subtraction(int a) { this.result = a; }
+
+  public void subtract(int b)
+  {
+    result -= b;
   }
 
-  public int getResult() {
-    return result;
-  }
+  public int getResult() { return result; }
 }
