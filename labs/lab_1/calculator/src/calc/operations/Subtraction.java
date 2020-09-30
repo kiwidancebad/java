@@ -14,4 +14,4 @@ public class Subtraction
   }
 
   public int getResult() { return result; }
-}
+}   

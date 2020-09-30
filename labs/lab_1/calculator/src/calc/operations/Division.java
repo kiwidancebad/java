@@ -6,7 +6,7 @@ public class Division
 
   public Division() { result = 0; }
 
-  public Division(int a) { this.result = a; }
+  public Division(int a) { this.result = a;}
 
   public void div(int b)
   {
@@ -14,4 +14,4 @@ public class Division
   }
 
   public int getResult() { return result; }
-}
+}   

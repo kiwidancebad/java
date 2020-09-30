@@ -8,10 +8,10 @@ public class Multiplication
 
   public Multiplication(int a) { this.result = a; }
 
-  public void multiply(int b)
+  public void multi(int b)
   {
     result *= b;
   }
 
   public int getResult() { return result; }
-}
+}   

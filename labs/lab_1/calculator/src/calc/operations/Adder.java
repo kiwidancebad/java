@@ -1,3 +1,4 @@
+
 package calc.operations;
 
 public class Adder
@@ -6,7 +7,7 @@ public class Adder
 
   public Adder() { result = 0; }
 
-  public Adder(int a) { this.result = a; }
+  public Adder(int a){ this.result = a; }
 
   public void add(int b)
   {
